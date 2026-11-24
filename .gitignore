@@ -1,0 +1,22 @@
+# Môi trường ảo và cache
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+.env
+
+# Dữ liệu và mô hình (nặng, có thể vướng bản quyền) - không đưa lên GitHub
+data/raw/*
+data/processed/*
+models/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!models/.gitkeep
+
+# Hệ điều hành / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,34 @@
+# Cài đặt: pip install -r requirements.txt
+# Sau khi chạy ổn định, chốt phiên bản: pip freeze > requirements-lock.txt
+
+# Xử lý dữ liệu và học máy cổ điển
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+
+# Notebook
+jupyterlab
+ipykernel
+
+# Học sâu và mô hình ngôn ngữ (xem README để chọn bản torch CPU/GPU)
+torch
+transformers
+datasets
+accelerate
+
+# Tiếng Việt
+underthesea
+
+# Giải thích mô hình
+lime
+shap
+
+# API và giao diện
+fastapi
+uvicorn
+streamlit
+
+# Kiểm thử
+pytest
